@@ -1,0 +1,22 @@
+[
+	{
+		"id": "start_10energy",
+		"condition": {
+			"variable": "energy",
+			"operator": ">",
+			"value": 3
+		},
+		"result": "_after_start_10energy",
+		"completed": false
+	},
+	{
+		"id": "2batteries",
+		"condition": {
+			"variable": "battery",
+			"operator": ">=",
+			"value": 2
+		},
+		"result": "_after_2battery",
+		"completed": false
+	}
+]
